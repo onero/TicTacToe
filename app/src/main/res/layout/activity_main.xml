@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:weightSum="3">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnTop1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onTopOneClicked"
+            android:textColor="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/btnTop2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onTopTwoClicked"
+            android:textColor="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/btnTop3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onTopThreeClicked"
+            android:textColor="@android:color/transparent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btnMiddle1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onMiddleOneClicked"
+            android:textColor="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/btnMiddle2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onMiddleTwoClicked"
+            android:textColor="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/btnMiddle3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onMiddleThreeClicked"
+            android:textColor="@android:color/transparent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/btnBottom1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onBottomOneClicked"
+            android:textColor="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/btnBottom2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onBottomTwoClicked"
+            android:textColor="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/btnBottom3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onBottomThreeClicked"
+            android:textColor="@android:color/transparent"/>
+    </LinearLayout>
+    
+</LinearLayout>
